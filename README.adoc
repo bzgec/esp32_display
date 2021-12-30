@@ -1,4 +1,4 @@
-= homeAutomation Display_mqtt HW
+= homeAutomation ESP32_display HW
 :toc:
 :sectnums:
 :sectnumlevels: 4
