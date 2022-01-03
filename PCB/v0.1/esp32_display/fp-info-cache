@@ -1,4 +1,4 @@
-19815110152960675
+19816226648287706
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84480,7 +84480,7 @@ ILI9341
 
 Display, ILI9341, 240x320, 3.2"
 0
-22
+18
 18
 myLib
 MAX1821EUB+
