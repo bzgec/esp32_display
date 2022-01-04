@@ -740,7 +740,7 @@
     (property "Reference" "D1" (id 0) (at 42.672 28.0416 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "D_Zener - 5.0V" (id 1) (at 42.672 30.353 90)
+    (property "Value" "SMAJ5.0CA" (id 1) (at 42.672 30.353 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_SMD:D_SMA" (id 2) (at 40.64 29.21 0)
@@ -857,7 +857,7 @@
     (property "Reference" "D2" (id 0) (at 122.682 28.0416 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "D_Zener - 3.3V" (id 1) (at 122.682 30.353 90)
+    (property "Value" "ESD5Z3.3T1G" (id 1) (at 122.682 30.353 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_SMD:D_SOD-523" (id 2) (at 120.65 29.21 0)
@@ -1108,10 +1108,10 @@
       (reference "C15") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061d468d4"
-      (reference "D1") (unit 1) (value "D_Zener - 5.0V") (footprint "Diode_SMD:D_SMA")
+      (reference "D1") (unit 1) (value "SMAJ5.0CA") (footprint "Diode_SMD:D_SMA")
     )
     (path "/628a4757-ac1e-4171-94bc-10225db0e9cd"
-      (reference "D2") (unit 1) (value "D_Zener - 3.3V") (footprint "Diode_SMD:D_SOD-523")
+      (reference "D2") (unit 1) (value "ESD5Z3.3T1G") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/3bdaab53-16cc-4327-8283-60d1698101e7"
       (reference "D3") (unit 1) (value "LED") (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
