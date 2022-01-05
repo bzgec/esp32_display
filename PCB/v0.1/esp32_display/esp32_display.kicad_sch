@@ -615,7 +615,7 @@
     (uuid 00000000-0000-0000-0000-000061c015be)
     (property "Reference" "J1" (id 0) (at 33.1978 59.2582 0))
     (property "Value" "USB_B_Micro" (id 1) (at 33.1978 61.5696 0))
-    (property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001" (id 2) (at 35.56 72.39 0)
+    (property "Footprint" "myLib:USB_Micro-B_Molex-105017-0001" (id 2) (at 35.56 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" (id 3) (at 35.56 72.39 0)
@@ -1120,7 +1120,7 @@
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580")
     )
     (path "/00000000-0000-0000-0000-000061c015be"
-      (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
+      (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "myLib:USB_Micro-B_Molex-105017-0001")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/785bf931-de50-44b9-a6a1-eebb5527f4a4"
       (reference "J2") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")

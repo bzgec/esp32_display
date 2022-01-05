@@ -399,7 +399,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "../../../Outputs/v0.1/esp32_display.step",
-      "vrml": ""
+      "vrml": "../../../Outputs/v0.1/esp32_display.wrl"
     },
     "page_layout_descr_file": ""
   },
