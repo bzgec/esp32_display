@@ -1,4 +1,4 @@
-19816226648287706
+19812265722507873
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84509,6 +84509,13 @@ USB Micro-B receptacle, horizontal, SMD, 10118194, https://cdn.amphenol-icc.com/
 USB Micro B horizontal SMD
 0
 17
+6
+myLib
+USB_Micro-B_Molex-105017-0001
+http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
+Micro-USB SMD Typ-B
+0
+13
 6
 myLib
 tabaluga_5x5
