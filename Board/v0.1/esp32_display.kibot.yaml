@@ -12,9 +12,9 @@ preflight:
       error: 'Error_type'
       regex:  'Expression to match'
 
-global:
-  dir: ./Board/v0.1
-  out_dir: ./Outputs/v0.1
+#global:
+#  dir: ./Board/v0.1
+#  out_dir: ./Outputs/v0.1
 
 outputs:
   - name: 'gerbers'

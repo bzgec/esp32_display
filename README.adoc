@@ -6,7 +6,11 @@
 == Automated exporting
 === Installation
 ==== KiBot
-* link:https://github.com/INTI-CMNB/kibot#installation-using-pip[]: `pip install --no-compile kibot`
+link:https://github.com/INTI-CMNB/kibot#installation-using-pip[Installation]:
+
+* `pip install --no-compile kibot`
 (on Windows you probably need to install it in `KiCad Command Prompt`)
+
+* On Arch Linux you can install it with: `paru -S kibot-git`
 
 == TODO
