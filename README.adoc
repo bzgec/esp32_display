@@ -3,4 +3,10 @@
 :sectnums:
 :sectnumlevels: 4
 
+== Automated exporting
+=== Installation
+==== KiBot
+* link:https://github.com/INTI-CMNB/kibot#installation-using-pip[]: `pip install --no-compile kibot`
+(on Windows you probably need to install it in `KiCad Command Prompt`)
+
 == TODO
