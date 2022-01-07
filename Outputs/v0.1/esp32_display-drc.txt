@@ -1,5 +1,5 @@
 ** Drc report for /home/bzgec/Projects/homeAutomation/display_mqtt/HW/Board/v0.1/esp32_display.kicad_pcb **
-** Created on 2022-01-07 20:21:40 **
+** Created on 2022-01-07 22:06:08 **
 
 ** Found 6 DRC violations **
 [silk_over_copper]: Silkscreen clipped by solder mask
