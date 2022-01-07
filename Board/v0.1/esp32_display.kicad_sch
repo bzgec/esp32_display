@@ -6,17 +6,17 @@
 
   (title_block
     (title "ESP32_display")
-    (date "2022/01/06")
+    (date "2022/01/07")
     (rev "v0.1")
     (company "Bzgec")
   )
 
   (lib_symbols
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (id 0) (at 0 6.35 0)
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "MountingHole_Pad" (id 1) (at 0 4.445 0)
+      (property "Value" "MountingHole" (id 1) (at 0 3.175 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (id 2) (at 0 0 0)
@@ -28,29 +28,22 @@
       (property "ki_keywords" "mounting hole" (id 4) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Mounting Hole with connection" (id 5) (at 0 0 0)
+      (property "ki_description" "Mounting Hole without connection" (id 5) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_fp_filters" "MountingHole*Pad*" (id 6) (at 0 0 0)
+      (property "ki_fp_filters" "MountingHole*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
           (stroke (width 1.27) (type default) (color 0 0 0 0))
           (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
         )
       )
     )
   )
 
 
-  (no_connect (at 67.31 124.46) (uuid 5796261b-4f5d-4032-bd33-6a05d0425fbf))
   (no_connect (at 54.61 52.07) (uuid f7b709d8-bd73-48d5-8cff-4a02597e4d46))
   (no_connect (at 54.61 50.165) (uuid f7b709d8-bd73-48d5-8cff-4a02597e4d46))
 
@@ -71,22 +64,21 @@
     (uuid e0835f17-2ab5-427a-b173-daa8e4c464ad)
   )
 
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 67.31 127 180) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 52c72b0a-7b13-4e4f-b408-f755e8ea0b56)
-    (property "Reference" "H1" (id 0) (at 72.39 129.54 0)
+  (symbol (lib_id "Mechanical:MountingHole") (at 58.42 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid e6cd0f10-9fef-46a7-a969-4cb23dfea13f)
+    (property "Reference" "H1" (id 0) (at 60.96 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole_Pad" (id 1) (at 86.995 127 0)
+    (property "Value" "MountingHole" (id 1) (at 60.96 129.5399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (id 2) (at 67.31 127 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (id 2) (at 58.42 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 67.31 127 0)
+    (property "Datasheet" "~" (id 3) (at 58.42 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid de55b451-5e84-4de4-98a3-321c571c8c79))
   )
 
   (sheet (at 69.85 26.67) (size 25.4 33.02) (fields_autoplaced)
@@ -170,6 +162,12 @@
   )
 
   (symbol_instances
+    (path "/00000000-0000-0000-0000-000061d02983/081a93ed-2bb5-4d25-aad0-5298afaf2352"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/05b4fa5d-8a68-4d4c-9d29-1b03d8bf76d0"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061c723b1/00000000-0000-0000-0000-000061d16a22"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
     )
@@ -338,8 +336,8 @@
     (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/03197566-c97c-4775-b529-716fcaf6faab"
       (reference "F1") (unit 1) (value "500mA, 1A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
-    (path "/52c72b0a-7b13-4e4f-b408-f755e8ea0b56"
-      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580")
+    (path "/e6cd0f10-9fef-46a7-a969-4cb23dfea13f"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/785bf931-de50-44b9-a6a1-eebb5527f4a4"
       (reference "J1") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
