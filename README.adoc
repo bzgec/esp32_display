@@ -13,4 +13,8 @@ link:https://github.com/INTI-CMNB/kibot#installation-using-pip[Installation]:
 
 * On Arch Linux you can install it with: `paru -S kibot-git`
 
+==== recordmydesktop
+* Needed only if running `kibot -vvv`
+* Arch Linux: `sudo pacman -S recordmydesktop`
+
 == TODO

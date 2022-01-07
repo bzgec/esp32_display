@@ -45,7 +45,7 @@
 
 
   (no_connect (at 54.61 52.07) (uuid f7b709d8-bd73-48d5-8cff-4a02597e4d46))
-  (no_connect (at 54.61 50.165) (uuid f7b709d8-bd73-48d5-8cff-4a02597e4d46))
+  (no_connect (at 54.61 50.165) (uuid f7b709d8-bd73-48d5-8cff-4a02597e4d47))
 
   (wire (pts (xy 53.34 52.07) (xy 54.61 52.07))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -64,19 +64,19 @@
     (uuid e0835f17-2ab5-427a-b173-daa8e4c464ad)
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 58.42 128.27 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole") (at 69.215 131.445 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e6cd0f10-9fef-46a7-a969-4cb23dfea13f)
-    (property "Reference" "H1" (id 0) (at 60.96 126.9999 0)
+    (property "Reference" "H1" (id 0) (at 71.755 130.1749 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MountingHole" (id 1) (at 60.96 129.5399 0)
+    (property "Value" "MountingHole" (id 1) (at 71.755 132.7149 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (id 2) (at 58.42 128.27 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (id 2) (at 69.215 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (id 3) (at 58.42 128.27 0)
+    (property "Datasheet" "~" (id 3) (at 69.215 131.445 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -163,10 +163,10 @@
 
   (symbol_instances
     (path "/00000000-0000-0000-0000-000061d02983/081a93ed-2bb5-4d25-aad0-5298afaf2352"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/05b4fa5d-8a68-4d4c-9d29-1b03d8bf76d0"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/00000000-0000-0000-0000-000061d16a22"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")

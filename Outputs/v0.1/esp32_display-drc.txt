@@ -1,0 +1,34 @@
+** Drc report for /home/bzgec/Projects/homeAutomation/display_mqtt/HW/Board/v0.1/esp32_display.kicad_pcb **
+** Created on 2022-01-07 20:21:40 **
+
+** Found 6 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(171.1000 mm, 44.9900 mm): Line on F.Silkscreen
+    @(171.3375 mm, 87.2000 mm): Through hole pad 1 [Net-(R2-Pad2)] of SW2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(171.1000 mm, 44.9900 mm): Line on F.Silkscreen
+    @(171.3375 mm, 82.7000 mm): Through hole pad 2 [GND] of SW2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(132.0000 mm, 32.0000 mm): Line on Edge.Cuts
+    @(161.9000 mm, 32.0000 mm): Line on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(132.0000 mm, 32.0000 mm): Line on Edge.Cuts
+    @(169.7000 mm, 32.0000 mm): Line on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(87.0000 mm, 44.0000 mm): Line on Edge.Cuts
+    @(121.1200 mm, 37.8900 mm): Line on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Rule: board setup constraints silk; Severity: warning
+    @(87.0000 mm, 44.0000 mm): Line on Edge.Cuts
+    @(102.8800 mm, 37.8900 mm): Line on B.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

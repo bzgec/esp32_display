@@ -618,7 +618,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 129.54 64.135 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 05b4fa5d-8a68-4d4c-9d29-1b03d8bf76d0)
-    (property "Reference" "#FLG0102" (id 0) (at 129.54 62.23 0)
+    (property "Reference" "#FLG02" (id 0) (at 129.54 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 125.095 60.325 0)
