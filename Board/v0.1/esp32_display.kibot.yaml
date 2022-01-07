@@ -47,14 +47,14 @@ outputs:
       use_alt: true
       number: 1
 
-  # - name: 'PCB_DRAW'
-  #   comment: "Draw PCB - bottom"
-  #   type: pcbdraw
-  #   dir: ./
-  #   options:
-  #     # output: '%f_bottom.%x'
-  #     format: jpg
-  #     bottom: true
+  - name: 'PCB_DRAW'
+    comment: "Draw PCB - bottom"
+    type: pcbdraw
+    dir: ./
+    options:
+      # output: '%f_bottom.%x'
+      format: jpg
+      bottom: true
 
   # - name: '3D_STEP'
   #   comment: "3D model in STEP format"
