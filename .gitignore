@@ -1,5 +1,6 @@
-# Outputs of KiKit
-gerber/
+# Outputs of KiBot
+kibot_errors.filter
+#auto_saved_files#
 
 ################################################################################
 # Github template gitignore
