@@ -9,15 +9,26 @@ preflight:
   sch_replace:
     # date_command: "git log -1 --format='%as' -- $KIBOT_SCH_NAME"
     date_command: "date -d @`git log -1 --format='%at' -- $KIBOT_SCH_NAME` +%Y/%m/%d"
+  pcb_replace:
+    date_command: "date -d @`git log -1 --format='%at' -- $KIBOT_SCH_NAME` +%Y/%m/%d"
   run_erc: true
   update_xml: true
   run_drc: true
   check_zone_fills: true
   ignore_unconnected: false
   filters:
-    - filter: 'Optional filter description'
-      error: 'Error_type'
-      regex:  'Expression to match'
+    - filter: 'BCKL_OFF button hole on silkscreen - GND'
+      error: 'silk_over_copper'
+      regex:  'pad 2 \[GND\] of SW2'
+    - filter: 'BCKL_OFF button hole on silkscreen - MCU pin'
+      error: 'silk_over_copper'
+      regex:  'pad 1 \[Net-\(R2-Pad2\)\] of SW2'
+    - filter: 'USB silkscreen over edge'
+      error: 'silk_over_copper'
+      regex:  '132.0000 mm, 32.0000 mm'
+    - filter: 'ESP32 silkscreen over edge'
+      error: 'silk_over_copper'
+      regex:  '87.0000 mm, 44.0000 mm'
 
 outputs:
   - name: 'gerbers'
