@@ -47,12 +47,21 @@ outputs:
       use_alt: true
       number: 1
 
-  - name: 'PCB_DRAW'
+  - name: 'PCB_DRAW_TOP'
+    comment: "Draw PCB - top"
+    type: pcbdraw
+    dir: ./
+    options:
+      output: '%f_pcbdraw_top.%x'
+      format: jpg
+      bottom: false
+
+  - name: 'PCB_DRAW_BOTTOM'
     comment: "Draw PCB - bottom"
     type: pcbdraw
     dir: ./
     options:
-      # output: '%f_bottom.%x'
+      output: '%f_pcbdraw_bottom.%x'
       format: jpg
       bottom: true
 
