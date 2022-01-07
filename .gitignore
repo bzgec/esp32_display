@@ -1,11 +1,12 @@
 # Outputs of KiBot
 kibot_errors.filter
 gerbers/
-*.ovg
+*.ogv
 eeschema_*.log
 recordmydesktop_*.log
 setxkbmap_*.log
-#auto_saved_files#
+
+*.kicad_pro-bak
 
 ################################################################################
 # Github template gitignore
