@@ -417,7 +417,7 @@
     (path "/00000000-0000-0000-0000-000061d270aa/88aef926-ed2d-4b01-8002-b7d45f2b5575"
       (reference "R22") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000061d270aa/49f3d16b-82b8-4304-ad03-dd3113565ce1"
+    (path "/00000000-0000-0000-0000-000061d270aa/9a1c044a-2004-4159-9f00-ba7fe290cb18"
       (reference "R23") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/bf13312f-ada2-417f-977f-b72906fe6e82"
