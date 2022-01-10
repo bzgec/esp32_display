@@ -348,6 +348,9 @@
     (path "/00000000-0000-0000-0000-000061c723b1/70b3577d-1b5c-40e0-9171-1aa4c4546368"
       (reference "JP1") (unit 1) (value "Jumper_3_Bridged12") (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm")
     )
+    (path "/00000000-0000-0000-0000-000061d02983/55043828-1d09-4d98-bee0-283acb2f8767"
+      (reference "JP2") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6d29b"
       (reference "L1") (unit 1) (value "10uF") (footprint "myLib:NR6028T100M")
     )
