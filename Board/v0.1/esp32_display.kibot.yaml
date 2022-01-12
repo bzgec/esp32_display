@@ -47,22 +47,31 @@ outputs:
       use_alt: true
       number: 1
 
-  # - name: 'PCB_DRAW'
-  #   comment: "Draw PCB - bottom"
-  #   type: pcbdraw
-  #   dir: ./
-  #   options:
-  #     # output: '%f_bottom.%x'
-  #     format: jpg
-  #     bottom: true
+  - name: 'PCB_DRAW_TOP'
+    comment: "Draw PCB - top"
+    type: pcbdraw
+    dir: ./
+    options:
+      output: '%f_pcbdraw_top.%x'
+      format: jpg
+      bottom: false
 
-  # - name: '3D_STEP'
-  #   comment: "3D model in STEP format"
-  #   type: step
-  #   dir: ./
-  #   options:
-  #     output: '%f.%x'
-  #     metric_units: true
+  - name: 'PCB_DRAW_BOTTOM'
+    comment: "Draw PCB - bottom"
+    type: pcbdraw
+    dir: ./
+    options:
+      output: '%f_pcbdraw_bottom.%x'
+      format: jpg
+      bottom: true
+
+  - name: '3D_STEP'
+    comment: "3D model in STEP format"
+    type: step
+    dir: ./
+    options:
+      output: '%f.%x'
+      metric_units: true
 
   # - name: 'OpenBoardview'
   #   comment: "OpenBoardview format"
