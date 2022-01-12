@@ -1,7 +1,12 @@
-= homeAutomation ESP32_display HW
+= ESP32_display HW
 :toc:
 :sectnums:
 :sectnumlevels: 4
+
+* Current version: *0.1*
+* link:./CHANGELOG.adoc[Changelog]
+
+'''
 
 == Automated exporting
 === Installation
