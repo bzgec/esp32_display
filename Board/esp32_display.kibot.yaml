@@ -71,6 +71,7 @@ outputs:
     dir: ./
     options:
       output: '%f.%x'
+      subst_models: true
       metric_units: true
 
   # - name: 'OpenBoardview'
