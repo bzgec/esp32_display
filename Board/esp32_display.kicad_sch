@@ -6,7 +6,7 @@
 
   (title_block
     (title "ESP32_display")
-    (date "2022/01/12")
+    (date "2022/01/17")
     (rev "v0.1")
     (company "Bzgec")
   )
@@ -143,11 +143,11 @@
     (property "Sheet file" "USB_CONN.kicad_sch" (id 1) (at 34.29 56.4646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "USB_N" input (at 53.34 52.07 0)
+    (pin "USB_N" bidirectional (at 53.34 52.07 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5cf3858a-13a8-46a6-8f24-4de4efa5ba71)
     )
-    (pin "USB_P" input (at 53.34 50.165 0)
+    (pin "USB_P" bidirectional (at 53.34 50.165 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid ac2a1c3d-97c5-4460-8eef-e34de7e02a87)
     )
