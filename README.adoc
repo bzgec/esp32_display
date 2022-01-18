@@ -20,6 +20,8 @@ link:https://github.com/INTI-CMNB/kibot#installation-using-pip[Installation]:
 ** You may need to install `pcbdraw-git` in case of
 `module 'pcbnew' has no attribute 'PLOTTEXTMODE_STROKE'` error
 (try to run `pcbnew --version` to be sure that program runs correctly)
+** You also may need to install `imagemagick`: `sudo pacman -S imagemagick`
+** You also may need to install few `pip` packages: `pip install mistune pybars3 wand`
 
 ==== recordmydesktop
 * Needed only if running `kibot -vvv`

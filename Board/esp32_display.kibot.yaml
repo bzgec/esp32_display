@@ -52,6 +52,7 @@ outputs:
       output: '%f_pcbdraw_top.%x'
       format: jpg
       bottom: false
+      show_components: all
 
   - name: 'PCB_DRAW_BOTTOM'
     comment: "Draw PCB - bottom"
@@ -61,6 +62,7 @@ outputs:
       output: '%f_pcbdraw_bottom.%x'
       format: jpg
       bottom: true
+      show_components: all
 
   - name: '3D_STEP'
     comment: "3D model in STEP format"

@@ -6,12 +6,41 @@
 
   (title_block
     (title "ESP32_display")
-    (date "2022/01/17")
+    (date "2022/01/18")
     (rev "v0.1")
     (company "Bzgec")
   )
 
   (lib_symbols
+    (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)
+      (property "Reference" "FID" (id 0) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Fiducial" (id 1) (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "fiducial marker" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fiducial Marker" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Fiducial*" (id 6) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Fiducial_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+      )
+    )
     (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "H" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -64,6 +93,40 @@
     (uuid e0835f17-2ab5-427a-b173-daa8e4c464ad)
   )
 
+  (symbol (lib_id "Mechanical:Fiducial") (at 16.51 121.92 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 5eb244d0-032b-4a57-a147-44faacc0e313)
+    (property "Reference" "FID1" (id 0) (at 18.669 120.7516 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 18.669 123.063 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm" (id 2) (at 16.51 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 16.51 121.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 16.51 127 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d547ab08-9a5d-4bc3-bdc6-eb70399817c6)
+    (property "Reference" "FID2" (id 0) (at 18.669 125.8316 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 18.669 128.143 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm" (id 2) (at 16.51 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 16.51 127 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "Mechanical:MountingHole") (at 69.215 131.445 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e6cd0f10-9fef-46a7-a969-4cb23dfea13f)
@@ -77,6 +140,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 69.215 131.445 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 16.51 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid feb38b83-6d1c-4038-a568-147252bfbe12)
+    (property "Reference" "FID3" (id 0) (at 18.669 130.9116 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Fiducial" (id 1) (at 18.669 133.223 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Fiducial:Fiducial_0.5mm_Mask1mm" (id 2) (at 16.51 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 16.51 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -207,6 +287,9 @@
     (path "/00000000-0000-0000-0000-000061c723b1/4de8ff2c-5080-4d6a-ae63-3bad634e166b"
       (reference "#PWR013") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000061c723b1/dcf43124-e77b-44b4-be5b-904941cc5dcf"
+      (reference "#PWR014") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000061c723b1/7cbdc31d-3cd5-48f5-aec0-6187bd32261a"
       (reference "#PWR015") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -282,9 +365,6 @@
     (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/3321f103-0e43-4dbc-a778-41eca645014a"
       (reference "#PWR039") (unit 1) (value "+5V") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061c723b1/dcf43124-e77b-44b4-be5b-904941cc5dcf"
-      (reference "#PWR0101") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061c723b1/00000000-0000-0000-0000-000061cdc2f3"
       (reference "C1") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
@@ -345,14 +425,23 @@
     (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/03197566-c97c-4775-b529-716fcaf6faab"
       (reference "F1") (unit 1) (value "500mA, 1A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
+    (path "/5eb244d0-032b-4a57-a147-44faacc0e313"
+      (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
+    (path "/d547ab08-9a5d-4bc3-bdc6-eb70399817c6"
+      (reference "FID2") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
+    (path "/feb38b83-6d1c-4038-a568-147252bfbe12"
+      (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
     (path "/e6cd0f10-9fef-46a7-a969-4cb23dfea13f"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580")
     )
-    (path "/00000000-0000-0000-0000-000061c723b1/c9a3e2b3-1464-43e2-96ac-4ae21c2b3aba"
-      (reference "J1") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
-    )
     (path "/00000000-0000-0000-0000-000061c723b1/785bf931-de50-44b9-a6a1-eebb5527f4a4"
-      (reference "J2") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
+      (reference "J1") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/c9a3e2b3-1464-43e2-96ac-4ae21c2b3aba"
+      (reference "J2") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
     )
     (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/1dee4846-8791-4542-adda-b250a1fd785e"
       (reference "J3") (unit 1) (value "USB_B_Micro") (footprint "myLib:USB_Micro-B_Molex-105017-0001")
@@ -402,53 +491,53 @@
     (path "/00000000-0000-0000-0000-000061c723b1/c0ecc08f-e367-427d-b298-5ef434afdfa6"
       (reference "R12") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000061c723b1/8094a2a9-bed6-46f5-9c29-592919828fec"
-      (reference "R13") (unit 1) (value "51k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c723b1/d5723e4f-253d-427a-8b38-a1db08a62ef9"
-      (reference "R14") (unit 1) (value "51k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c723b1/d154ea11-c3c4-4175-94f0-50fe293d10f2"
-      (reference "R15") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c723b1/8d6c7d3d-a0e4-43b0-91c6-6d319e6c4807"
-      (reference "R16") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c723b1/26229a53-b4ec-4fee-a791-ce10797d8947"
-      (reference "R17") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061c723b1/881b305f-f9af-418b-9b14-a065b79e7f12"
-      (reference "R18") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6124f"
-      (reference "R19") (unit 1) (value "82k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6ee5c"
-      (reference "R20") (unit 1) (value "24.9k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6f430"
-      (reference "R21") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d02983/ae03cbb8-81a0-47e5-a3ce-50a64e78deef"
-      (reference "R22") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d270aa/a82d6136-acf2-4494-9025-7b5b430de08b"
-      (reference "R23") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d270aa/88aef926-ed2d-4b01-8002-b7d45f2b5575"
-      (reference "R24") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000061d270aa/9a1c044a-2004-4159-9f00-ba7fe290cb18"
-      (reference "R25") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
-    (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/bf13312f-ada2-417f-977f-b72906fe6e82"
-      (reference "R26") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000061c723b1/e41885f1-3352-4a4e-88bb-c64ba2133a83"
-      (reference "R27") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R13") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/6dc96f49-d76e-42a8-b06d-639aff124647"
-      (reference "R28") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+      (reference "R14") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/8094a2a9-bed6-46f5-9c29-592919828fec"
+      (reference "R15") (unit 1) (value "51k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/d5723e4f-253d-427a-8b38-a1db08a62ef9"
+      (reference "R16") (unit 1) (value "51k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/d154ea11-c3c4-4175-94f0-50fe293d10f2"
+      (reference "R17") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/8d6c7d3d-a0e4-43b0-91c6-6d319e6c4807"
+      (reference "R18") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/26229a53-b4ec-4fee-a791-ce10797d8947"
+      (reference "R19") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061c723b1/881b305f-f9af-418b-9b14-a065b79e7f12"
+      (reference "R20") (unit 1) (value "220") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6124f"
+      (reference "R21") (unit 1) (value "82k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6ee5c"
+      (reference "R22") (unit 1) (value "24.9k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6f430"
+      (reference "R23") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d02983/ae03cbb8-81a0-47e5-a3ce-50a64e78deef"
+      (reference "R24") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d270aa/a82d6136-acf2-4494-9025-7b5b430de08b"
+      (reference "R25") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d270aa/88aef926-ed2d-4b01-8002-b7d45f2b5575"
+      (reference "R26") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000061d270aa/9a1c044a-2004-4159-9f00-ba7fe290cb18"
+      (reference "R27") (unit 1) (value "30") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/135735c6-9c20-4bf3-849f-8a3683d0618a/bf13312f-ada2-417f-977f-b72906fe6e82"
+      (reference "R28") (unit 1) (value "1M") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/00000000-0000-0000-0000-000061d12500"
       (reference "SW1") (unit 1) (value "RST_BTN") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS")
