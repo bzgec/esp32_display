@@ -88,12 +88,17 @@ outputs:
   #     output: '%f_3d.%x'
   #     ray_tracing: false
 
-  # - name: PDF_PCB
-  #   comment: 'Print PCB layers to PDF'
-  #   type: pdf_pcb_print
-  #   dir: ./
-  #   options:
-  #     output: '%f_pcb.%x'
+  - name: PDF_PCB
+    comment: 'Print PCB layers to PDF'
+    type: pdf_pcb_print
+    dir: ./
+    layers: all
+    options:
+      output: '%f_pcb.%x'
+      separated: true
+      scaling: 1.0
+      plot_sheet_reference: true
+
 
 import:
   - ../Res/KiBot/gerberConfig/JLCPCB_my.kibot.yaml
