@@ -53,6 +53,7 @@ outputs:
       format: jpg
       bottom: false
       show_components: all
+      dpi: 500
 
   - name: 'PCB_DRAW_BOTTOM'
     comment: "Draw PCB - bottom"
@@ -63,6 +64,7 @@ outputs:
       format: jpg
       bottom: true
       show_components: all
+      dpi: 500
 
   - name: '3D_STEP'
     comment: "3D model in STEP format"
