@@ -42,6 +42,8 @@ outputs:
       - B.SilkS
       - F.Mask
       - B.Mask
+      - F.Paste
+      - B.Paste
       - Edge.Cuts
 
   - name: JLCPCB_drill
