@@ -1042,7 +1042,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061d6d29b)
     (property "Reference" "L1" (id 0) (at 123.19 75.184 90))
-    (property "Value" "10uF" (id 1) (at 123.19 77.4954 90))
+    (property "Value" "10uH" (id 1) (at 123.19 77.4954 90))
     (property "Footprint" "myLib:NR6028T100M" (id 2) (at 123.19 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )

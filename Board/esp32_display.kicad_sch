@@ -453,7 +453,7 @@
       (reference "JP2") (unit 1) (value "Jumper_2_Bridged") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000061d02983/00000000-0000-0000-0000-000061d6d29b"
-      (reference "L1") (unit 1) (value "10uF") (footprint "myLib:NR6028T100M")
+      (reference "L1") (unit 1) (value "10uH") (footprint "myLib:NR6028T100M")
     )
     (path "/00000000-0000-0000-0000-000061c723b1/983d7b3d-c492-4e16-b360-0df9bf8ff211"
       (reference "R1") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
