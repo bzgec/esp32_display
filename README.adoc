@@ -28,3 +28,4 @@ link:https://github.com/INTI-CMNB/kibot#installation-using-pip[Installation]:
 * Arch Linux: `sudo pacman -S recordmydesktop`
 
 == TODO
+* [ ] Fix silkscreen for programming connector (TX and RX are replaced, also the same for IO0 and RST)
