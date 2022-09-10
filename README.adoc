@@ -1,4 +1,4 @@
-= ESP32_display HW
+= MQTT display HW
 :toc:
 :sectnums:
 :sectnumlevels: 4
@@ -7,6 +7,24 @@
 * link:./CHANGELOG.adoc[Changelog]
 
 '''
+
+MQTT display using:
+
+* ESP32
+* ILI9341 display
+
+
+[link="./Res/pic/display_mqtt.jpg"]
+.Example
+image::./Res/pic/display_mqtt.jpg[alt="display_mqtt", height="250px", align="center"]
+
+== PCB:
+
+=== v0.1
+
+[link="./Res/pic/hw_v0.1_bottom_real.jpg"]
+.HW v0.1
+image::./Res/pic/hw_v0.1_bottom_real.jpg[alt="hw_v0.1_bottom_real", height="300px", align="center"]
 
 == Automated exporting
 === Installation
@@ -29,3 +47,5 @@ link:https://github.com/INTI-CMNB/kibot#installation-using-pip[Installation]:
 
 == TODO
 * [ ] Fix silkscreen for programming connector (TX and RX are replaced, also the same for IO0 and RST)
+* [ ] Remove Display module SD card slot - that way display can seat lower
+  (whole PCB if then thinner)
